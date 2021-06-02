@@ -6,3 +6,4 @@ A 9th led is directly connected to Arduino and it is used to notify the case of 
 
 ATTENTION: to use the shift register in an easier way, I developed a C++ library that is included in this repository (.h and .cpp files) to be able to use the IC at an higher level of abstraction, even without a perfect knowledge of its datasheet.
 The .ino file's code uses this class.  
+To use that class in this or future projects, it si adviced to go in /Documents/Arduino/libraries/ and make a directory in which copy the .h and .cpp files.
