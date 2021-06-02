@@ -2,9 +2,9 @@
 
 SHR_74HC595::SHR_74HC595(){
 	
-	//default device's configuration
+    //default device's configuration
 	
-	pinMode(13, OUTPUT); //Master Reset (active LOW)
+    pinMode(13, OUTPUT); //Master Reset (active LOW)
     pinMode(12, OUTPUT); //DS (serial data input)
     pinMode(8, OUTPUT); //SH_CP (shift register clock input)
     pinMode(7, OUTPUT); //ST_CP (storale register clock input)
@@ -20,20 +20,7 @@ SHR_74HC595::SHR_74HC595(){
 
 
 }
-/*
-SHR_74HC595::SHR_74HC595(byte DS = -1, byte SH_CP = -1, byte ST_CP = -1, byte MR = -1, byte OE = -1){
 
-	/*
-	set_SerialDataInput(DS_pin, DS);
-	set_ShiftRegisterClockInput(SH_CP_pin, SH_CP);
-	set_StorageRegisterClockInput(ST_CP_pin, ST_CP);
-	set_MasterReset(MR_pin, MR);
-	set_OutputEnable(OE_pin, OE);
-    set_delay(int 100);
-	*/
-/*
-}
-*/
 SHR_74HC595::~SHR_74HC595(){
 	
 }
