@@ -13,7 +13,6 @@ class SHR_74HC595{
 	public:
 
 		SHR_74HC595();
-		//SHR_74HC595(byte DS = -1, byte SH_CP = -1, byte ST_CP = -1, byte MR = -1, byte OE = -1);
 		~SHR_74HC595();
 
 		void set_SerialDataInput(byte pin);
